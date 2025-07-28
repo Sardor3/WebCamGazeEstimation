@@ -37,8 +37,14 @@ Estimate gaze on computer screen
 - [ ] Copy the file openh264-1.8.0-win64.dll into the environment path (e.g. C:\Anaconda3\envs\name_of_env). Link: https://github.com/cisco/openh264/releases/tag/v1.8.0
 
 - [ ] run main.py to test the application with the OpenVino model
+    ```bash
+    python src/main.py
+    ```
 
 - [ ] run main_pl.py to test the application with the pl_gaze_estimation model (https://github.com/hysts/pytorch_mpiigaze_demo)
+    ```python
+    python src/main_pl.py
+    ```
 
 - [ ] in order to run main_compareWithTobii.py you need to generate a exe file that runs Tobii Eye Tracker 5, for this you need the sdk dll for Tobii Eye Tracker 5
 
