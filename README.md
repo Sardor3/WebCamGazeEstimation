@@ -34,7 +34,7 @@ Estimate gaze on computer screen
 
         pip install -r requirements_pl_gaze.txt
 
-- [ ] Copy the file openh264-1.8.0-win64.dll into the environment path (e.g. C:\Anaconda3\envs\name_of_env)
+- [ ] Copy the file openh264-1.8.0-win64.dll into the environment path (e.g. C:\Anaconda3\envs\name_of_env). Link: https://github.com/cisco/openh264/releases/tag/v1.8.0
 
 - [ ] run main.py to test the application with the OpenVino model
 
