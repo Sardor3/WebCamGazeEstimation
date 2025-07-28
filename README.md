@@ -25,7 +25,7 @@ Estimate gaze on computer screen
 
     To install OpenVINO Development Tools into the existing environment with the deep learning framework of your choice, run the following command:
 
-        pip install openvino-dev
+        pip install openvino-dev==2023.3.0
         pip install -r requirements.txt or conda install --file requirements.txt
 
     Additionally to OpenVino we added the demo programm from pl_gaze_estimation (https://github.com/hysts/pytorch_mpiigaze_demo), training code for the pl_gaze_estimation using MPIIGaze, MPIIFaceGaze, and ETH-XGaze are available under: https://github.com/hysts/pl_gaze_estimation/tree/main
