@@ -39,6 +39,9 @@ Estimate gaze on computer screen
 - [ ] run main.py to test the application with the OpenVino model
 
 - [ ] run main_pl.py to test the application with the pl_gaze_estimation model (https://github.com/hysts/pytorch_mpiigaze_demo)
+    ```python
+    python src/main_pl.py
+    ```
 
 - [ ] in order to run main_compareWithTobii.py you need to generate a exe file that runs Tobii Eye Tracker 5, for this you need the sdk dll for Tobii Eye Tracker 5
 
